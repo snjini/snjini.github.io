@@ -53,43 +53,50 @@
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
 			<section class="ftco-section contact-section">
-	     <h2>Let's get in Touch!</h2>
-			<button class="contact_button" onclick="showContactForm()">Contact</button>
-			<form id="contact-form" method="post" action="https://formspree.io/tyronewong96@gmail.com">
-				<div class="fields">
-					<div class="field">
-						<input type="text" name="name" id="name" placeholder="Name" />
-					</div>
-					<div class="field">
-						<input type="email" name="email" id="email" placeholder="Email" />
-					</div>
-					<div class="field">
-						<input id="email-subject" type ="hidden" name="_subject" value="null">
-						<select name="department" id="department" onchange="setSubject(this.value)" required>
-							<option value="">Department</option>
-							<option value="sales">Sales</option>
-							<option value="tech">Tech Support</option>
-							<option value="Recruiter">Recruiter</option>
-						</select>
-						</input>
-					</div>
-					<div class="field">
-						<textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
-					</div>
-					<div class="field">
-						<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-					</div>
-					<div class="field">
-						<label>But are you a robot?</label>
-						<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-						<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-					</div>
-				</div>
-				<ul class="actions special">
-					<li><button href="#" type="submit" class="button">Send</button></li>
-				</ul>
-			</form>
-			<hr />
+	      <div class="container">
+		        <div class="row d-flex mb-5 contact-info">
+		          <div class="col-md-12 mb-4">
+		            <h2 class="h4 font-weight-bold">Contact Info</h2>
+		          </div>
+		          <div class="w-100"></div>
+		          <div class="col-md-3">
+		            <p><span>Address: </span>Montreal, QC</p>
+		          </div>
+		          <div class="col-md-3">
+		            <p><span>Phone:</span> <a href="tel://1234567920">+1 204 797 1862</a></p>
+		          </div>
+		          <div class="col-md-3">
+		            <p><span>Email:</span> <a href="mailto:sasha.njini@hotmail.com"> sasha.njini@hotmail.com</a></p>
+		          </div>
+	
+		        </div>
+		        <div class="row block-9">
+		          <div class="col-md-6 order-md-last pr-md-5">
+		            <form action=""https://formspree.io/sasha.njini@hotmail.com" method="POST" />
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Your Name">
+		              </div>
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Your Email">
+		              </div>
+		              <div class="form-group">
+		                <input type="text" class="form-control" placeholder="Subject">
+		              </div>
+		              <div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+		              <div class="form-group">
+		                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+		              </div>
+		            </form>
+	
+		          </div>
+	
+		          <div class="col-md-6">
+		          	<div id="map"></div>
+		          </div>
+		        </div>
+		      </div>
 	    </section>
 
 		</div><!-- END COLORLIB-MAIN -->

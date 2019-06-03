@@ -7599,6 +7599,12 @@ h1, h2, h3, h4, h5,
       font-weight: 400;
       color: #b3b3b3;
       border-bottom: 2px solid #b3b3b3; }
+    .hero-wrap .text .btn-new {
+      font-weight: 400;
+      color: #b3b3b3;
+      border-bottom: 2px solid #343a40; }
+      
+      
 
 .photography-entry {
   height: 270px;

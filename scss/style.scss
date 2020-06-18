@@ -711,16 +711,16 @@ h1, h2, h3, h4, h5,
 		outline: none;
 	}
 	&.btn-primary {
-		background: $primary;
-		border: 1px solid $primary;
+		background: $black;
+		border: 1px solid $black;
 		color: $white;
 		&:hover {
-			border: 1px solid $primary;
+			border: 1px solid $black;
 			background: transparent;
 			color :$black;
 		}
 		&.btn-outline-primary {
-			border: 1px solid $primary;
+			border: 1px solid $black;
 			background: transparent;
 			color :$black;
 			&:hover {
@@ -736,7 +736,7 @@ h1, h2, h3, h4, h5,
 		color: $black;
 		&:hover, &:focus, &:active {
 			border: 1px solid $white;
-			color :$primary;
+			color :$black;
 		}
 		&.btn-outline-white {
 			border-color: rgba($white, .8);
@@ -747,7 +747,7 @@ h1, h2, h3, h4, h5,
 			&:hover, &:focus, &:active {
 				background: $white;
 				border-color: $white;
-				color: $primary;
+				color: $black;
 			}
 		}
 	}

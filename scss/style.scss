@@ -717,15 +717,15 @@ h1, h2, h3, h4, h5,
 		&:hover {
 			border: 1px solid $primary;
 			background: transparent;
-			color :$primary;
+			color :$black;
 		}
 		&.btn-outline-primary {
 			border: 1px solid $primary;
 			background: transparent;
-			color :$primary;
+			color :$black;
 			&:hover {
 				border: 1px solid transparent;
-				background: $primary;
+				background: $black;
 				color :$white;
 			}
 		}
